@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+    <form id="myForm">
+        <div class="form-image">
+            <img src="img/imagenes docotres/descarga (4).jpg" alt="doc1">
+        </div>
+        <div class="form-fields">
+            </div>
+        <h1>El doctor Alex es un cirujano exelente en cassos de emerjencia y muy capaz gracias a su amplio eestudio y posgrados    </h1>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" min="2024-01-01" max="2024-12-31" required>
+
+        <label for="mensaje">indique sus sintomas :</label>
+        <textarea id="mensaje" name="mensaje" maxlength="50" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>// Puedes agregar funcionalidad adicional aquí, como validaciones o envío de datos
+        const form = document.getElementById('myForm');
+        
+        form.addEventListener('submit', (event) => {
+            event.preventDefault(); // Evita el envío del formulario por defecto
+            // Aquí puedes agregar código para procesar los datos del formulario,
+            // por ejemplo, enviarlos a un servidor
+            const formData = new FormData(form);
+            console.log(formData); // Muestra los datos del formulario en la consola
+        });
+        
+        </script> 
+        </body>
+</html>

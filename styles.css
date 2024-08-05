@@ -1,0 +1,179 @@
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22, 169, 133, .2);
+    --border:.2ren solid var(--green);
+
+}
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding: 5rem 6%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+
+}                      
+
+.header .logo i{
+    color: var(--green);
+}
+
+/* Increase navbar height */
+.navbar {
+    height: 20px; /* Adjust height as desired */
+  }
+  
+  /* Remove default bottom margin from navbar */
+  .navbar.navbar-expand-lg {
+    margin-bottom: 0;
+  }
+  
+  /* Style link hover effect */
+  .nav-link:hover {
+    background-color: #52eec7; /* Change to your desired hover color */
+    color: rgb(90, 247, 208); /* Change text color on hover (optional) */
+  }
+
+  .doctores {
+    padding-top: 100px; /* Adjust the value for desired spacing */
+    margin: bottom 100px;
+
+  }
+
+  .heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin: bottom 200px;
+    padding-top: 100px;
+    object-position: center;
+  }
+
+
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size:62.5%;
+        
+    }
+    .header{
+        padding: 2rem 5rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:450px){
+
+    html{
+        font-size:50%;
+        
+    }
+  
+
+}
+
+
+
+.doctores .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+}
+
+
+.doctores .box-container .box{
+    text-align: center;
+    background: #ffffff;
+    border-radius: .5rem;
+    border: var(--green);
+    box-shadow: var(--green);
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+/* styles.css */
+
+/* Contenedor principal del formulario */
+form {
+    width: 400px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Sección para la imagen */
+.form-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Imagen */
+.form-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sección para los campos del formulario */
+.form-fields {
+    margin-top: 20px;
+}
+
+/* Estilos para los labels e inputs (puedes personalizarlos) */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    /* Estilos para el botón de envío */
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
