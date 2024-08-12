@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link href="style-slide.css" rel="stylesheet" />
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">">
 </head>
 <body>
     <header class="header">
@@ -25,7 +27,7 @@
       <li class="nav-item">
         <a class="nav-link text-dark" href="doctores.html">Doctores</a>  </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="citas">Citas</a>  </li>
+        
         <li class="nav-item">
           <a class="nav-link text-dark" href="login.html">iniciar secion</a>  </li>
     </ul>
@@ -36,24 +38,57 @@
 
 
     </header>
-
-    <section class="home" id="home" >
+    <div class="content">
+      <h3>ESTA SEGURO <span>ESTA SALUDABLE </span></h3>
       
-      <div class="image">
-        <img src="img/imagenes docotres/tres-personal-medico-femenino.png" alt="">
-      </div>
-      
-      <div class="content">
-        <h3>esta azalbo, esta saludable</h3>
-        <a href="#" class="btn"><span class="fas fa-hevron-right"></span> contactanos  </a>
-      </div>
+    </div>
 
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagenes docotres/Logo Medicina.-800x800.jpg" class="d-block w-50" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagenes docotres/tres-personal-medico-femenino.png" class="d-block w-50" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>  
+ 
+      
+      
 
 
 
 
     </section>
+<footer>
+  p>&copy; 2023 Mlugo. Todos los derechos reservados.</p>
+  
+  <ul class="social">
+    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+</ul> 
 
+
+</footer>
 
 
 
